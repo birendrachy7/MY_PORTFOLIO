@@ -22,6 +22,7 @@ class Particles{
             this.speedX = (Math.random() -0.5) * 0.5;
             this.speedY = (Math.random() -0.5) * 0.5;       
             }
+
     draw(){
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.radius, 0, Math.PI*2);
@@ -30,6 +31,7 @@ class Particles{
             ctx.fillStyle = this.color;
             ctx.fill();
             }
+
     update(){
             this.x += this.speedX;
             this.y += this.speedY;
@@ -39,7 +41,7 @@ class Particles{
             if(this.y>canvas.height) this.y = 0;    
             this.draw();
             }
-    }
+}
 
 function createParticles(){
     particles = [];
