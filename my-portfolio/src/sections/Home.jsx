@@ -8,11 +8,11 @@ import avator from "../assets/avator.png";
 
 
 const socials=[
-  {Icon : FaXTwitter,label:"X", href:"https://x.com/birendrachy_7"},
-  {Icon : FaLinkedin,label:"LinkedIn", href:"https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/"},
-  {Icon : FaGithub,label:"GitHub", href:"https://github.com/birendrachy7"},
-  {Icon : FaFacebook,label:"Facebook", href:"https://www.facebook.com/birendrachy.07"},
-  {Icon : FaInstagram,label:"Instagram", href:"https://www.instagram.com/birendra.chy.7"}
+  {Icon : FaXTwitter,label:"X", href:"https://x.com/"},
+  {Icon : FaLinkedin,label:"LinkedIn", href:"https://www.linkedin.com/in//"},
+  {Icon : FaGithub,label:"GitHub", href:"https://github.com/"},
+  {Icon : FaFacebook,label:"Facebook", href:"https://www.facebook.com/"},
+  {Icon : FaInstagram,label:"Instagram", href:"https://www.instagram.com/"}
 ]
 
 const glowVariants = {
