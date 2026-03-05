@@ -86,7 +86,7 @@ return (
     <a href="#contact"
     className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-5 py-2 rounded-full font-medium shadow-lg hover:opacity-90 transition-opacity duration-300"
     >
-        Reach Out
+    Contact me
     </a>
 
 </div>

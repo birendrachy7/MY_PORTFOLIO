@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import About from "./sections/About"
 import Certificates from "./sections/Certificates"
 import Contact from "./sections/Contact"
+import Education from "./sections/Education"
 import Footer from "./sections/Footer"
 import Home from "./sections/Home"
 import Projects from "./sections/Projects"
@@ -17,6 +18,7 @@ export default function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Education/>
     <Skills/>
     <Projects/>
     <Certificates/>

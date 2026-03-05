@@ -111,7 +111,7 @@ Feel free to contact me for collaboration, projects, or cybersecurity opportunit
 <div className="flex items-center gap-3">
 <FaLinkedin className="text-[#1cd8d2]" />
 <a
-href="https://www.linkedin.com"
+href="https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/"
 target="_blank"
 rel="noopener noreferrer"
 className="hover:underline"

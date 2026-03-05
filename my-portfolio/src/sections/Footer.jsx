@@ -5,10 +5,10 @@ export default function Footer(){
 
 const socials = [
 { icon: <FaGithub />, link: "https://github.com/birendrachy7" },
-{ icon: <FaLinkedin />, link: "https://www.linkedin.com" },
-{ icon: <FaXTwitter />, link: "https://x.com" },
-{ icon: <FaFacebook />, link: "https://facebook.com" },
-{ icon: <FaInstagram />, link: "https://instagram.com" }
+{ icon: <FaLinkedin />, link: "https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/" },
+{ icon: <FaXTwitter />, link: "https://x.com/birendrachy_7" },
+{ icon: <FaFacebook />, link: "https://www.facebook.com/birendrachy.07" },
+{ icon: <FaInstagram />, link: "https://www.instagram.com/birendra.chy.7/" }
 ];
 
 return(
