@@ -27,7 +27,7 @@ const glowVariants = {
 
 export default function Home() {
 
-  const roles = useMemo(() => ["Data Analyst", "Web Developer", "Software Developer"], []);
+  const roles = useMemo(() => ["Computer Engineering Student","Problem Analyst","Cyber Security Analyst ", "Software Developer"], []);
   const [index, setIndex] = React.useState(0);
   const [subIndex, setSubIndex] = React.useState(0);
   const [deleting, setDeleting] = React.useState(false);

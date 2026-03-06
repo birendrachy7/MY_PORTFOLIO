@@ -97,9 +97,7 @@ viewport={{once:true}}
 Let's Connect
 </h3>
 
-<p className="text-gray-300 mb-6">
-Feel free to contact me for collaboration, projects, or cybersecurity opportunities.
-</p>
+
 
 <div className="space-y-4">
 
@@ -116,7 +114,7 @@ target="_blank"
 rel="noopener noreferrer"
 className="hover:underline"
 >
-LinkedIn Profile
+Birendra Chaudhary
 </a>
 </div>
 
@@ -128,7 +126,7 @@ target="_blank"
 rel="noopener noreferrer"
 className="hover:underline"
 >
-GitHub Profile
+birendrachy7
 </a>
 </div>
 
