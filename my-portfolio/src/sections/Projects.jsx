@@ -9,7 +9,7 @@ const projects = [
 title: "Personal Portfolio",
 description:
 "My personal portfolio website built using React, TailwindCSS and Framer Motion to showcase my skills, projects and profile as a Computer Engineering student and aspiring Cyber Security Analyst.",
-github: "https://github.com/birendrachy7/Portfolio",
+github: "https://github.com/birendrachy7/MY_PORTFOLIO",
 demo: "https://www.birendrachaudhary08.com.np",
 tech: ["React", "TailwindCSS", "Framer Motion"]
 },
