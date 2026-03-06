@@ -123,7 +123,7 @@ export default function Home() {
             </a>
 
             <a
-              href=""/*"/Font page.pdf"*/
+              href="Resume.pdf"/*"/Font page.pdf"*/
               download
               className="px-6 py-3 rounded-full font-medium text-black
               bg-white hover:bg-gray-200 shadow-lg hover:scale-110 transition"
