@@ -27,7 +27,7 @@ const glowVariants = {
 
 export default function Home() {
 
-  const roles = useMemo(() => ["Computer Engineering Student","Problem Analyst","Cyber Security Analyst ", "Software Developer"], []);
+  const roles = useMemo(() => ["Computer Engineering Student","Problem Analyst","Aspiring Network & Cyber Analyst ","Software Developer"], []);
   const [index, setIndex] = React.useState(0);
   const [subIndex, setSubIndex] = React.useState(0);
   const [deleting, setDeleting] = React.useState(false);
@@ -106,7 +106,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            Computer Engineering student with interests in software development, networking, and cybersecurity, aspiring to become a Cybersecurity Analyst.
+            Computer Engineering student with a strong interest in networking and cybersecurity.
           </motion.p>
 
 

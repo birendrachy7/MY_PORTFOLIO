@@ -52,10 +52,10 @@ transition={{type:"spring",stiffness:200,damping:18}}
   </h2>
 
   <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-    Computer Engineering Student | Aspiring Cybersecurity Analyst 
+    Computer Engineering Student | Aspiring Network & Cybersecurity Analyst 
   </p>
   <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-    I work primarily with Python and am actively learning how systems operate, how vulnerabilities occur, and how they can be secured. My goal is to build a strong foundation in cyber security and grow into a Security Analyst role.
+    I primarily work with Python and am learning network analysis and cybersecurity fundamentals, including how systems operate, vulnerabilities arise, and how to secure them. I aspire to grow into a network analysis and cybersecurity professional.
   </p>
 
   <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl ">

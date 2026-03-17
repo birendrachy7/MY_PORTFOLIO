@@ -11,14 +11,14 @@ issuer:"simplilearn",
 description:"The Programming with Python 3.X course teaches the basics of Python, including installing Python, writing simple programs, using variables and data types, working with loops and conditions, creating functions, handling lists and files, and learning basic debugging and object-oriented programming concepts.",
 link:"https://drive.google.com/file/d/19iTIVso42rErgJVQkrnjTwN4ECxyVNXV/view?usp=sharing"
 },
-/*
-{
-title:"Web Development Certificate",
-issuer:"Udemy / Online Platform",
-description:"Completed training in HTML, CSS, JavaScript and modern web development concepts.",
-link:"#"
-},
 
+{
+title:"Computer Network and Security Certificate",
+issuer:"National Academy of Science and Technology (Pokhara University)",
+description:"Completed a 20-hour non-credit course in Computer Network and Security, gaining foundational knowledge in networking concepts and system security.",
+link:"https://drive.google.com/file/d/1bRn7wfdY-Tf-1XZs36mKuvUK9TRWRkFY/view?usp=sharing"
+},
+/*
 {
 title:"Cyber Security Fundamentals",
 issuer:"Online Training",
