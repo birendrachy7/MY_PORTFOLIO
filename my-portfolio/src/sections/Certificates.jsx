@@ -18,6 +18,13 @@ issuer:"National Academy of Science and Technology (Pokhara University)",
 description:"Completed a 20-hour non-credit course in Computer Network and Security, gaining foundational knowledge in networking concepts and system security.",
 link:"https://drive.google.com/file/d/1bRn7wfdY-Tf-1XZs36mKuvUK9TRWRkFY/view?usp=sharing"
 },
+
+{
+  "title": "Certified Junior Web Application Penetration Tester",
+  "issuer": "Sturtle Security Pvt. Ltd.",
+  "description": "Achieved certification as a Junior Web Application Penetration Tester, demonstrating proficiency in identifying and assessing web application vulnerabilities, along with foundational knowledge in cybersecurity and penetration testing techniques.",
+  "link": "https://drive.google.com/file/d/1U5w70e_H3NmhDlACIM549Y4PUlh07Hxf/view?usp=sharing"
+}
 /*
 {
 title:"Cyber Security Fundamentals",

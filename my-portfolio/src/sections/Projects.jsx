@@ -22,6 +22,30 @@ github: "https://github.com/birendrachy7/Old-Book-Store",
 demo: null,
 tech: ["Python", "Flask", "MySQL", "HTML", "CSS"]
 },
+{
+  title: "SNMP Network Monitoring Lab",
+  description:
+    "A network monitoring lab that simulates SNMP-based device performance tracking. Configured SNMP agents and managers to monitor uptime, interface status, and device metrics. Demonstrates practical NOC-style monitoring concepts.",
+  github: "https://github.com/birendrachy7/SNMP-Network-Monitoring-Lab",
+  demo: null,
+  tech: ["SNMP", "Network Monitoring", "Linux", "TCP/IP", "Infrastructure"]
+},
+{
+  title: "Python Network Monitoring Tool",
+  description:
+    "A Python-based CLI tool that monitors network device availability using ICMP ping. Performs periodic health checks and logs device status to detect downtime conditions. Built to simulate basic network monitoring automation.",
+  github: "https://github.com/birendrachy7/network-monitoring-tool",
+  demo: null,
+  tech: ["Python", "ICMP", "Automation", "Network Monitoring", "CLI"]
+},
+{
+  title: "SNMP Network Monitoring Lab",
+  description:
+    "A network monitoring lab that simulates SNMP-based device performance tracking. Configured SNMP agents and managers to monitor uptime, interface status, and device metrics. Demonstrates practical NOC-style monitoring concepts.",
+  github: "https://github.com/birendrachy7/SNMP-Network-Monitoring-Lab",
+  demo: null,
+  tech: ["SNMP", "Network Monitoring", "Linux", "TCP/IP", "Infrastructure"]
+},
 /*
 {
 title: "Network Scanner Tool",
