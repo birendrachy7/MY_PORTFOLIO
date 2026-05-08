@@ -10,15 +10,15 @@ icon:<FaGraduationCap/>,
 degree:"Bachelor of Computer Engineering",
 institution:"National Academy of Science and Technology",
 year:"2022 - Present",
-description:"Pursuing Computer Engineering focusing on software development, networking, cybersecurity and system design."
+description:"Pursuing Bachelor of Computer Engineering ."
 },
 
 {
 icon:<FaSchool/>,
 degree:"Secondary & Higher Secondary Education (Grade IX - XII)",
-institution:"Awisharya Vidya Niketan",
+institution:"Aishwarya Vidya Niketan",
 year:"Completed",
-description:"Completed secondary and higher secondary education with focus on science, mathematics and computer studies."
+description:"Completed Secondary and Higher Secondary Level Education."
 },
 
 {
@@ -26,7 +26,7 @@ icon:<FaBook/>,
 degree:"Primary Education (Nursery - Grade VIII)",
 institution:"Himal Academy, Dhangadhi",
 year:"Completed",
-description:"Built a strong academic foundation in mathematics, science and early computer learning."
+description:"Completed BLE Education."
 }
 
 ];

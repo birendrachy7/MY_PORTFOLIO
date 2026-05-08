@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer(){
@@ -8,8 +8,8 @@ const socials = [
 { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/" },
 { icon: <FaXTwitter />, link: "https://x.com/birendrachy_7" },
 { icon: <FaFacebook />, link: "https://www.facebook.com/birendrachy.07" },
-{ icon: <FaInstagram />, link: "https://www.instagram.com/birendra.chy.7/" }
-];
+/*{ icon: <FaInstagram />, link: "https://www.instagram.com/birendra.chy.7/" }
+*/];
 
 return(
 

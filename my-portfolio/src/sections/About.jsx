@@ -1,6 +1,6 @@
 import{motion} from "framer-motion";
 import React from "react";
-import me from "../assets/me.png"
+import Profile from "../assets/Profile.png"
 
 export default function About(){
 
@@ -41,7 +41,7 @@ whileHover={{scale:1.02}}
 transition={{type:"spring",stiffness:200,damping:18}}
 
 >
-<img src={me} alt="profile" className="absolute inset-0" />
+<img src={Profile} alt="profile" className="absolute inset-0" />
 </motion.div>
 
 <div className="flex-1 flex flex-col justify-center text-center md:text-left">

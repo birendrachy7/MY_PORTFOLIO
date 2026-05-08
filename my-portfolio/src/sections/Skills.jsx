@@ -1,6 +1,6 @@
 import { motion, useMotionValue } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { FaPython, FaJava, FaHtml5, FaCss3, FaPhp, FaReact } from "react-icons/fa";
+import { FaPython, FaJava, FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiMysql, SiKalilinux } from "react-icons/si";
 
 
@@ -12,7 +12,6 @@ export default function Skills(){
     {icon:<SiMysql /> , value:"MySql"},
     {icon:<FaHtml5 /> , value:"Html"},
     {icon:<FaCss3 /> , value:"Css"},
-    {icon:<FaPhp /> , value:"PHP"},
     {icon:<FaReact /> , value:"React"},
     {icon:<SiKalilinux /> , value:"Linux"},
   ];

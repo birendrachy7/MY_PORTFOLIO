@@ -38,6 +38,16 @@ tech: ["Python", "Flask", "MySQL", "HTML", "CSS"]
   demo: null,
   tech: ["Python", "ICMP", "Automation", "Network Monitoring", "CLI"]
 },
+
+{
+  title: "Network Scanner Tool",
+  description: 
+   "A Python tool that scans open ports and identifies potential vulnerabilities in a network.",
+  github: "https://github.com/yourusername/network-scanner",
+  demo: null,
+  tech: ["Python","Networking","Security"]
+},
+/*
 {
   title: "SNMP Network Monitoring Lab",
   description:
@@ -45,14 +55,6 @@ tech: ["Python", "Flask", "MySQL", "HTML", "CSS"]
   github: "https://github.com/birendrachy7/SNMP-Network-Monitoring-Lab",
   demo: null,
   tech: ["SNMP", "Network Monitoring", "Linux", "TCP/IP", "Infrastructure"]
-},
-/*
-{
-title: "Network Scanner Tool",
-description: "A Python tool that scans open ports and identifies potential vulnerabilities in a network.",
-github: "https://github.com/yourusername/network-scanner",
-demo: null,
-tech: ["Python","Networking","Security"]
 }
 */
 ];

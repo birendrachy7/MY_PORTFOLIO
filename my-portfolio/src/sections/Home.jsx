@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebook} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import avator from "../assets/avator.png";
 
@@ -11,7 +11,7 @@ const socials = [
   { Icon: FaLinkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/" },
   { Icon: FaGithub, label: "GitHub", href: "https://github.com/birendrachy7" },
   { Icon: FaFacebook, label: "Facebook", href: "https://www.facebook.com/birendrachy.07" },
-  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/birendra.chy.7/" }
+ /*// { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/briefing.bxhy/" }*/
 ];
 
 const glowVariants = {
@@ -123,7 +123,7 @@ export default function Home() {
             </a>
 
             <a
-              href="Resume.pdf"/*"/Font page.pdf"*/
+              href="CV.pdf"/*"/Font page.pdf"*/
               download
               className="px-6 py-3 rounded-full font-medium text-black
               bg-white hover:bg-gray-200 shadow-lg hover:scale-110 transition"
