@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebook} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import avator from "../assets/avator.png";
 
@@ -11,7 +11,6 @@ const socials = [
   { Icon: FaLinkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/birendra-chaudhary-5a49a8332/" },
   { Icon: FaGithub, label: "GitHub", href: "https://github.com/birendrachy7" },
   { Icon: FaFacebook, label: "Facebook", href: "https://www.facebook.com/birendrachy.07" },
- /*// { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/briefing.bxhy/" }*/
 ];
 
 const glowVariants = {
@@ -27,7 +26,16 @@ const glowVariants = {
 
 export default function Home() {
 
-  const roles = useMemo(() => ["Computer Engineering Student","Problem Analyst","Aspiring Network & Cyber Analyst ","Software Developer"], []);
+  const roles = useMemo(
+    () => [
+      "Web Development Student",
+      "Data Structures & Algorithms Learner",
+      "AI/ML Enthusiast",
+      "Software Developer (Aspiring)"
+    ],
+    []
+  );
+
   const [index, setIndex] = React.useState(0);
   const [subIndex, setSubIndex] = React.useState(0);
   const [deleting, setDeleting] = React.useState(false);
@@ -56,17 +64,14 @@ export default function Home() {
 
       {/* Background Glow */}
       <div className="absolute inset-0">
-
         <div className="absolute -top-32 -left-32 w-[35vw] h-[35vw] rounded-full
         bg-gradient-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
-        opacity-20 blur-[140px] animate-pulse"/>
+        opacity-20 blur-[140px] animate-pulse" />
 
         <div className="absolute -bottom-32 -right-32 w-[35vw] h-[35vw] rounded-full
         bg-gradient-to-r from-[#302b63] via-[#00bf8f] to-[#1cd8d2]
-        opacity-20 blur-[140px] animate-pulse delay-500"/>
-
+        opacity-20 blur-[140px] animate-pulse delay-500" />
       </div>
-
 
       <div className="relative z-10 h-full w-full max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2">
 
@@ -83,22 +88,18 @@ export default function Home() {
             <span className="ml-1 border-r-2 border-[#1cd8d2] animate-pulse"></span>
           </motion.div>
 
-
           {/* NAME */}
           <motion.h1
             className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Hello I'm
-            <br />
-
+            Hello, I'm <br />
             <span className="bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
             bg-clip-text text-transparent drop-shadow-lg">
               Birendra Chaudhary
             </span>
           </motion.h1>
-
 
           {/* DESCRIPTION */}
           <motion.p
@@ -106,9 +107,9 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            Computer Engineering student with a strong interest in networking and cybersecurity.
+            Computer Engineering student passionate about building modern web applications,
+            solving problems using Data Structures & Algorithms, and exploring Artificial Intelligence & Machine Learning.
           </motion.p>
-
 
           {/* BUTTONS */}
           <div className="mt-10 flex flex-wrap gap-6 justify-center lg:justify-start">
@@ -123,7 +124,7 @@ export default function Home() {
             </a>
 
             <a
-              href="CV.pdf"/*"/Font page.pdf"*/
+              href="CV.pdf"
               download
               className="px-6 py-3 rounded-full font-medium text-black
               bg-white hover:bg-gray-200 shadow-lg hover:scale-110 transition"
@@ -132,7 +133,6 @@ export default function Home() {
             </a>
 
           </div>
-
 
           {/* SOCIAL ICONS */}
           <div className="mt-10 flex gap-6 justify-center lg:justify-start text-3xl">
@@ -157,13 +157,12 @@ export default function Home() {
 
         </div>
 
-
         {/* RIGHT SIDE AVATAR */}
         <div className="relative hidden lg:flex items-center justify-center">
 
           <div className="absolute w-[380px] h-[380px] rounded-full
           bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
-          blur-[120px] opacity-30 animate-pulse"/>
+          blur-[120px] opacity-30 animate-pulse" />
 
           <motion.img
             src={avator}
@@ -177,7 +176,6 @@ export default function Home() {
         </div>
 
       </div>
-
 
       {/* SCROLL INDICATOR */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
